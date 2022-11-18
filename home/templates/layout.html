@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+{% load plotly_dash %}
+
+    <div class="{% plotly_class name='Dynamic' %} card" style="height: 100%; width: 50%;">
+        {% plotly_app_bootstrap name='MaxT' %}
+    </div>
+    <br>
+    
+{% endblock %}
