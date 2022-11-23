@@ -1,0 +1,78 @@
+action: GLOB, msg: packaging
+cwd: D:\Code\MLOPS\CI_CD\ci-cd-dashboard
+cmd: 'C:\Users\Thakur\Anaconda3\envs\ci-cd\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+running sdist
+running egg_info
+writing src.egg-info\PKG-INFO
+writing dependency_links to src.egg-info\dependency_links.txt
+writing top-level names to src.egg-info\top_level.txt
+reading manifest file 'src.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src.egg-info\SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating src-0.0.1
+creating src-0.0.1\dashplotly
+creating src-0.0.1\home
+creating src-0.0.1\home\migrations
+creating src-0.0.1\src.egg-info
+copying files to src-0.0.1...
+copying LICENSE -> src-0.0.1
+copying README.md -> src-0.0.1
+copying setup.py -> src-0.0.1
+copying dashplotly\__init__.py -> src-0.0.1\dashplotly
+copying dashplotly\asgi.py -> src-0.0.1\dashplotly
+copying dashplotly\routing.py -> src-0.0.1\dashplotly
+copying dashplotly\settings.py -> src-0.0.1\dashplotly
+copying dashplotly\urls.py -> src-0.0.1\dashplotly
+copying dashplotly\wsgi.py -> src-0.0.1\dashplotly
+copying home\__init__.py -> src-0.0.1\home
+copying home\admin.py -> src-0.0.1\home
+copying home\apps.py -> src-0.0.1\home
+copying home\forms.py -> src-0.0.1\home
+copying home\models.py -> src-0.0.1\home
+copying home\tests.py -> src-0.0.1\home
+copying home\urls.py -> src-0.0.1\home
+copying home\views.py -> src-0.0.1\home
+copying home\migrations\0001_initial.py -> src-0.0.1\home\migrations
+copying home\migrations\__init__.py -> src-0.0.1\home\migrations
+copying src.egg-info\PKG-INFO -> src-0.0.1\src.egg-info
+copying src.egg-info\SOURCES.txt -> src-0.0.1\src.egg-info
+copying src.egg-info\dependency_links.txt -> src-0.0.1\src.egg-info
+copying src.egg-info\top_level.txt -> src-0.0.1\src.egg-info
+Writing src-0.0.1\setup.cfg
+creating '.tox\dist\src-0.0.1.zip' and adding 'src-0.0.1' to it
+adding 'src-0.0.1'
+adding 'src-0.0.1\dashplotly'
+adding 'src-0.0.1\home'
+adding 'src-0.0.1\src.egg-info'
+adding 'src-0.0.1\LICENSE'
+adding 'src-0.0.1\PKG-INFO'
+adding 'src-0.0.1\README.md'
+adding 'src-0.0.1\setup.cfg'
+adding 'src-0.0.1\setup.py'
+adding 'src-0.0.1\dashplotly\asgi.py'
+adding 'src-0.0.1\dashplotly\routing.py'
+adding 'src-0.0.1\dashplotly\settings.py'
+adding 'src-0.0.1\dashplotly\urls.py'
+adding 'src-0.0.1\dashplotly\wsgi.py'
+adding 'src-0.0.1\dashplotly\__init__.py'
+adding 'src-0.0.1\home\migrations'
+adding 'src-0.0.1\home\admin.py'
+adding 'src-0.0.1\home\apps.py'
+adding 'src-0.0.1\home\forms.py'
+adding 'src-0.0.1\home\models.py'
+adding 'src-0.0.1\home\tests.py'
+adding 'src-0.0.1\home\urls.py'
+adding 'src-0.0.1\home\views.py'
+adding 'src-0.0.1\home\__init__.py'
+adding 'src-0.0.1\home\migrations\0001_initial.py'
+adding 'src-0.0.1\home\migrations\__init__.py'
+adding 'src-0.0.1\src.egg-info\dependency_links.txt'
+adding 'src-0.0.1\src.egg-info\PKG-INFO'
+adding 'src-0.0.1\src.egg-info\SOURCES.txt'
+adding 'src-0.0.1\src.egg-info\top_level.txt'
+removing 'src-0.0.1' (and everything under it)
