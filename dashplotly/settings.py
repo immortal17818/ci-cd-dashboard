@@ -87,11 +87,11 @@ WSGI_APPLICATION = 'dashplotly.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Plotly',
-        'USER': 'root',
-        'PASSWORD': '12345',
-        'HOST': 'localhost',
-        'PORT': '3306'
+        'NAME': 'd1guna15qoe5e7',
+        'USER': 'fshapqtsdayqbl',
+        'PASSWORD': 'ecaa90102f14cd3d127fb75eeb69103bb937a6ef773e0bb0c8cf545b2157edc7',
+        'HOST': 'ec2-54-86-224-85.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
