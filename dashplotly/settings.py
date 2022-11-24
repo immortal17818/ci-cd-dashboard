@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'dashplotly.wsgi.application'
 # }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'd1guna15qoe5e7',
         'USER': 'fshapqtsdayqbl',
         'PASSWORD': 'ecaa90102f14cd3d127fb75eeb69103bb937a6ef773e0bb0c8cf545b2157edc7',
