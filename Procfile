@@ -1,1 +1,1 @@
-web: gunicorn dashplotly.wsgi
+web: gunicorn ci-cd-dashboard.wsgi

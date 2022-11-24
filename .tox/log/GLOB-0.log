@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: D:\Code\MLOPS\CI_CD\ci-cd-dashboard
-cmd: 'C:\Users\Thakur\Anaconda3\envs\ci-cd\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+cmd: 'C:\Users\Thakur\Anaconda3\envs\devops-ci-cd\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
 running sdist
 running egg_info
 writing src.egg-info\PKG-INFO
@@ -10,10 +10,6 @@ reading manifest file 'src.egg-info\SOURCES.txt'
 adding license file 'LICENSE'
 writing manifest file 'src.egg-info\SOURCES.txt'
 running check
-warning: check: missing required meta-data: url
-
-warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
-
 creating src-0.0.1
 creating src-0.0.1\dashplotly
 creating src-0.0.1\home
