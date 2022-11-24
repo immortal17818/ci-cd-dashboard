@@ -3,13 +3,13 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 from django_plotly_dash import DjangoDash
-from home.models import GraphData
+from home.models import graphdata
 import pandas as pd
 import plotly.express as px
 import numpy as np
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-querry_result = GraphData.objects.all()
+querry_result = graphdata.objects.all()
 graph_data = pd.DataFrame.from_records(querry_result.values())
 MaxT = graph_data['MaxT'].to_numpy()
 Humidity = graph_data['Humidity'].to_numpy()

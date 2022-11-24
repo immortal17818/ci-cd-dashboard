@@ -142,8 +142,8 @@ class DjangoSession(models.Model):
         db_table = 'django_session'
 
                                 
-class GraphData(models.Model):
-    Id = models.AutoField(primary_key=True)
+class graphdata(models.Model):
+    ID = models.AutoField(primary_key=True)
     Date = models.CharField(max_length=25, blank=True, null=True)
     MaxT = models.CharField(max_length=25, blank=True, null=True)
     MinT = models.CharField(max_length=25, blank=True, null=True)
@@ -153,4 +153,4 @@ class GraphData(models.Model):
 
     class Meta:
         managed = False
-        db_table = 'GraphData'
+        db_table = 'graphdata'
