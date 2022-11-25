@@ -143,7 +143,7 @@ class DjangoSession(models.Model):
 
                                 
 class graphdata(models.Model):
-    ID = models.AutoField(primary_key=True)
+    Id = models.CharField(max_length=25, blank=True, null=True)
     Date = models.CharField(max_length=25, blank=True, null=True)
     MaxT = models.CharField(max_length=25, blank=True, null=True)
     MinT = models.CharField(max_length=25, blank=True, null=True)
